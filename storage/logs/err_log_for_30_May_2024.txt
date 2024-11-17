@@ -1,0 +1,5 @@
+[30-May-2024 12:24:39 Asia/Calcutta] PHP Warning:  Undefined variable $AllSenderEmails in C:\xampp\htdocs\roofnassets\app\emails\smtps\index.php on line 70
+[30-May-2024 12:25:15 Asia/Calcutta] PHP Warning:  Undefined variable $AllSenderEmails in C:\xampp\htdocs\roofnassets\app\emails\smtps\index.php on line 70
+[30-May-2024 12:25:31 Asia/Calcutta] PHP Warning:  Undefined variable $AllSenderEmails in C:\xampp\htdocs\roofnassets\app\emails\smtps\index.php on line 70
+[30-May-2024 12:25:41 Asia/Calcutta] PHP Warning:  Undefined variable $AllSenderEmails in C:\xampp\htdocs\roofnassets\app\emails\smtps\index.php on line 70
+[30-May-2024 12:26:01 Asia/Calcutta] PHP Warning:  Undefined variable $AllSenderEmails in C:\xampp\htdocs\roofnassets\app\emails\smtps\index.php on line 70

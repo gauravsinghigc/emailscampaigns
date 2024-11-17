@@ -1,0 +1,50 @@
+[28-May-2024 12:16:08 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in C:\xampp\htdocs\roofnassets\include\app\Header.php:18
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\app\index.php(43): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\roofnassets\include\app\Header.php on line 18
+[28-May-2024 12:33:04 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2051
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 28 M...', '\r\n    <body>\r\n ...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(74): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(50): SENDMAILS('TEST ', 'Dear Sir/Mam,', 'navix365@gmail....', '<p>TEST MAIL</p...', '8')
+#4 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2051
+[28-May-2024 12:34:24 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2051
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 28 M...', '\r\n    <body>\r\n ...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(74): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(50): SENDMAILS('navix365@gmail....', 'Dear Sir/Mam,', 'navix365@gmail....', 'TEST MAIL', '8')
+#4 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2051
+[28-May-2024 12:35:39 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2051
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 28 M...', '<body>TEST MAIL...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(121): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(50): SENDMAILSTEMPLATE('navix365@gmail....', 'navix365@gmail....', 'TEST MAIL', '8')
+#4 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2051
+[28-May-2024 13:03:58 Asia/Calcutta] PHP Warning:  Undefined variable $emailTemplateContent in C:\xampp\htdocs\roofnassets\app\emails\compose\index.php on line 405
+[28-May-2024 13:12:13 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2051
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 28 M...', '--b1=_8u9t2lSC6...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(121): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(220): SENDMAILSTEMPLATE('Congratulations...', 'gsidrive2@gmail...', '&lt;p class=&qu...', '9', Array)
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2051
+[28-May-2024 13:19:38 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. Failed to connect to server in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2233
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 28 M...', '--b1=_GobIiONyZ...')
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(121): PHPMailer\PHPMailer\PHPMailer->send()
+#4 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(220): SENDMAILSTEMPLATE('Congratulations...', 'gauravsinghigc@...', '&lt;p class=&qu...', '9', Array)
+#5 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2233

@@ -1,0 +1,7 @@
+[06-Sep-2024 11:15:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'emails' in C:\xampp\htdocs\emails\acm\SystemDBConnector.php:5
+Stack trace:
+#0 C:\xampp\htdocs\emails\acm\SystemDBConnector.php(5): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'emails')
+#1 C:\xampp\htdocs\emails\acm\SysFileAutoLoader.php(37): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\emails\index.php(3): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\emails\acm\SystemDBConnector.php on line 5

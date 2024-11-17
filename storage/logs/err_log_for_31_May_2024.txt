@@ -1,0 +1,1 @@
+[31-May-2024 08:41:35 Asia/Calcutta] PHP Warning:  Undefined variable $emailTemplateContent in C:\xampp\htdocs\roofnassets\app\emails\compose\index.php on line 490

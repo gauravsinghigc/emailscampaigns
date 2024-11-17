@@ -1,0 +1,148 @@
+[06-Jun-2024 09:17:51 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in C:\xampp\htdocs\emails\include\app\Header.php:23
+Stack trace:
+#0 C:\xampp\htdocs\emails\app\index.php(34): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\emails\include\app\Header.php on line 23
+[06-Jun-2024 10:59:33 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function UserLocation() in C:\xampp\htdocs\emails\app\users\index.php:108
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\emails\app\users\index.php on line 108
+[06-Jun-2024 11:14:04 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'emails.user_employment_details' doesn't exist in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM u...')
+#2 C:\xampp\htdocs\emails\app\users\add.php(11): _DB_COMMAND_('SELECT * FROM u...', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php on line 12
+[06-Jun-2024 11:16:03 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'emails.user_employment_details' doesn't exist in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM u...')
+#2 C:\xampp\htdocs\emails\app\users\add.php(11): _DB_COMMAND_('SELECT * FROM u...', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php on line 12
+[06-Jun-2024 12:42:51 Asia/Calcutta] PHP Warning:  Undefined array key "CurrentFile" in C:\xampp\htdocs\emails\handler\SystemController\ConfigController.php on line 127
+[06-Jun-2024 12:43:06 Asia/Calcutta] PHP Warning:  Undefined array key "CurrentFile" in C:\xampp\htdocs\emails\handler\SystemController\ConfigController.php on line 127
+[06-Jun-2024 13:32:29 Asia/Calcutta] PHP Warning:  Undefined array key "UserCreatedAt" in C:\xampp\htdocs\emails\handler\ModuleController\UserController.php on line 173
+[06-Jun-2024 13:32:29 Asia/Calcutta] PHP Warning:  Undefined array key "admin_status" in C:\xampp\htdocs\emails\handler\ModuleController\UserController.php on line 213
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined array key "UserNotes" in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php on line 32
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined array key "UserDepartment" in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php on line 32
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined array key "UserDesignation" in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php on line 32
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined array key "UserWorkFeilds" in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php on line 32
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserName in C:\xampp\htdocs\emails\app\users\index.php on line 83
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 84
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 85
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 86
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 87
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 88
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserName in C:\xampp\htdocs\emails\app\users\index.php on line 83
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 84
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 85
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 86
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 87
+[06-Jun-2024 13:57:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 88
+[06-Jun-2024 13:57:55 Asia/Calcutta] PHP Warning:  Undefined array key "UserNotes" in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php on line 32
+[06-Jun-2024 13:57:55 Asia/Calcutta] PHP Warning:  Undefined array key "UserDepartment" in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php on line 32
+[06-Jun-2024 13:57:55 Asia/Calcutta] PHP Warning:  Undefined array key "UserDesignation" in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php on line 32
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined array key "UserWorkFeilds" in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php on line 32
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserName in C:\xampp\htdocs\emails\app\users\index.php on line 83
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 84
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 85
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 86
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 87
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 88
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserName in C:\xampp\htdocs\emails\app\users\index.php on line 83
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 84
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 85
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 86
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 87
+[06-Jun-2024 13:57:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 88
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserName in C:\xampp\htdocs\emails\app\users\index.php on line 83
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 84
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 85
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 86
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 87
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 88
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserName in C:\xampp\htdocs\emails\app\users\index.php on line 83
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 84
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 85
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 86
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 87
+[06-Jun-2024 13:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 88
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserName in C:\xampp\htdocs\emails\app\users\index.php on line 83
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 84
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 85
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 86
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 87
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 88
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserName in C:\xampp\htdocs\emails\app\users\index.php on line 83
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 84
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 85
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 86
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 87
+[06-Jun-2024 13:58:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 88
+[06-Jun-2024 14:04:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 90
+[06-Jun-2024 14:04:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 91
+[06-Jun-2024 14:04:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 92
+[06-Jun-2024 14:04:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:04:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:04:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 90
+[06-Jun-2024 14:04:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 91
+[06-Jun-2024 14:04:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 92
+[06-Jun-2024 14:04:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:04:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 90
+[06-Jun-2024 14:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 91
+[06-Jun-2024 14:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 92
+[06-Jun-2024 14:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 90
+[06-Jun-2024 14:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 91
+[06-Jun-2024 14:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 92
+[06-Jun-2024 14:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:04:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:04:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 90
+[06-Jun-2024 14:04:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 91
+[06-Jun-2024 14:04:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 92
+[06-Jun-2024 14:04:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:04:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:04:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 90
+[06-Jun-2024 14:04:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 91
+[06-Jun-2024 14:04:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 92
+[06-Jun-2024 14:04:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:04:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:04:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 90
+[06-Jun-2024 14:04:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 91
+[06-Jun-2024 14:04:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 92
+[06-Jun-2024 14:04:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:04:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:04:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CompanyName in C:\xampp\htdocs\emails\app\users\index.php on line 90
+[06-Jun-2024 14:04:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 91
+[06-Jun-2024 14:04:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 92
+[06-Jun-2024 14:04:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:04:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:18:05 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'AdminId' in 'where clause' in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT admin_co...')
+#1 C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT admin_co...')
+#2 C:\xampp\htdocs\emails\modules\AdminModules.php(5): FETCH('SELECT admin_co...', 'admin_company_n...')
+#3 C:\xampp\htdocs\emails\app\users\index.php(91): AdminDetails('439', 'admin_company_n...')
+#4 {main}
+  thrown in C:\xampp\htdocs\emails\acm\SysModules\CRUD_Modules\Select.php on line 12
+[06-Jun-2024 14:39:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:39:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:39:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 95
+[06-Jun-2024 14:39:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 96
+[06-Jun-2024 14:39:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:39:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:39:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 95
+[06-Jun-2024 14:39:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 96
+[06-Jun-2024 14:44:32 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:44:32 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:44:32 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 95
+[06-Jun-2024 14:44:32 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 96
+[06-Jun-2024 14:48:02 Asia/Calcutta] PHP Warning:  Undefined array key "UserCreatedAt" in C:\xampp\htdocs\emails\handler\ModuleController\UserController.php on line 64
+[06-Jun-2024 14:48:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Website in C:\xampp\htdocs\emails\app\users\index.php on line 93
+[06-Jun-2024 14:48:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$UserCount in C:\xampp\htdocs\emails\app\users\index.php on line 94
+[06-Jun-2024 14:48:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$CreatedAt in C:\xampp\htdocs\emails\app\users\index.php on line 95
+[06-Jun-2024 14:48:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Status in C:\xampp\htdocs\emails\app\users\index.php on line 96

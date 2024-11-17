@@ -1,0 +1,12 @@
+[24-May-2024 12:12:36 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2212
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 24 M...', '\r\n    <body>\r\n ...')
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(75): PHPMailer\PHPMailer\PHPMailer->send()
+#4 C:\xampp\htdocs\roofnassets\acm\SysModules\PROCESS_Modules\Handler.php(33): SENDMAILS('Record Removed ...', 'Removed Record ...', 'info@roofandass...', NULL)
+#5 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(196): DeleteReqHandler('Remove_Email_Te...', Array, Array)
+#6 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2212
+[24-May-2024 12:19:37 Asia/Calcutta] PHP Warning:  Undefined variable $checked in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 147

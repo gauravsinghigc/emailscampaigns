@@ -1,0 +1,279 @@
+[23-May-2024 14:03:42 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 73
+[23-May-2024 14:03:42 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 73
+[23-May-2024 14:04:40 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 73
+[23-May-2024 14:04:40 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 73
+[23-May-2024 14:05:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''28' at line 1 in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php:10
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php(10): mysqli_query(Object(mysqli), 'DELETE FROM con...')
+#1 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(137): DELETE_SQL('DELETE FROM con...')
+#2 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php on line 10
+[23-May-2024 14:35:52 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 140
+[23-May-2024 14:35:52 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 140
+[23-May-2024 14:49:58 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 140
+[23-May-2024 14:49:58 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 140
+[23-May-2024 14:54:31 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 14:54:31 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 14:54:46 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 14:54:46 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 14:55:13 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 14:55:13 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 14:55:13 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 150
+[23-May-2024 15:05:49 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 15:05:49 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 15:05:49 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 150
+[23-May-2024 15:17:59 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 15:17:59 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 147
+[23-May-2024 15:17:59 Asia/Calcutta] PHP Warning:  Undefined variable $key in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 147
+[23-May-2024 15:17:59 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 147
+[23-May-2024 15:17:59 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 151
+[23-May-2024 15:18:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''28' at line 1 in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php:10
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php(10): mysqli_query(Object(mysqli), 'DELETE FROM con...')
+#1 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(138): DELETE_SQL('DELETE FROM con...')
+#2 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php on line 10
+[23-May-2024 15:19:59 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''28' at line 1 in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php:10
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php(10): mysqli_query(Object(mysqli), 'DELETE FROM con...')
+#1 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(138): DELETE_SQL('DELETE FROM con...')
+#2 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php on line 10
+[23-May-2024 15:21:00 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''28' at line 1 in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php:10
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php(10): mysqli_query(Object(mysqli), 'DELETE from con...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php(21): DELETE_SQL('DELETE from con...')
+#2 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(138): DELETE_FROM('config_email_te...', 'config_email_te...')
+#3 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php on line 10
+[23-May-2024 15:21:21 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''28' at line 1 in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php:10
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php(10): mysqli_query(Object(mysqli), 'DELETE from con...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php(21): DELETE_SQL('DELETE from con...')
+#2 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(138): DELETE_FROM('config_email_te...', 'config_email_te...')
+#3 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php on line 10
+[23-May-2024 15:21:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''28' at line 1 in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php:10
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php(10): mysqli_query(Object(mysqli), 'DELETE from con...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php(21): DELETE_SQL('DELETE from con...')
+#2 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(138): DELETE_FROM('config_email_te...', 'config_email_te...')
+#3 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php on line 10
+[23-May-2024 15:21:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 15:22:07 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''28' at line 1 in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php:10
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php(10): mysqli_query(Object(mysqli), 'DELETE from con...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php(21): DELETE_SQL('DELETE from con...')
+#2 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(138): DELETE_FROM('config_email_te...', 'config_email_te...')
+#3 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Delete.php on line 10
+[23-May-2024 15:22:22 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 15:22:22 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: strtoupper(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\roofnassets\acm\SysModules\PHP_Modules\DataActivity.php:27
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\PHP_Modules\DataActivity.php(27): strtoupper(Array)
+#1 C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php(147): UpperCase(Array)
+#2 C:\xampp\htdocs\roofnassets\handler\ModuleHandler.php(10): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\PHP_Modules\DataActivity.php on line 27
+[23-May-2024 15:23:24 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 15:23:24 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 15:23:24 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 150
+[23-May-2024 15:23:38 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 15:23:38 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 15:23:38 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 150
+[23-May-2024 15:24:05 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 15:24:06 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 141
+[23-May-2024 15:24:06 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 150
+[23-May-2024 15:26:15 Asia/Calcutta] PHP Warning:  Undefined variable $header_names in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 146
+[23-May-2024 15:26:15 Asia/Calcutta] PHP Warning:  Undefined variable $header_names in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 146
+[23-May-2024 15:26:15 Asia/Calcutta] PHP Warning:  Undefined variable $header_names in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 146
+[23-May-2024 15:27:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 15:27:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 15:27:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:13:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:13:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:13:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:13:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:14:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:14:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:14:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:14:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:14:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:14:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:14:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:14:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:15:20 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:15:20 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:15:20 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:15:20 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:15:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:15:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:15:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:15:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:16:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:16:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:16:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:16:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:16:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:16:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:16:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:16:48 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:17:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:17:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:17:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:17:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:22:23 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:22:23 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:22:23 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:22:23 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:22:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:22:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:22:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:22:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:24:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:24:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:24:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:24:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:24:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:24:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:24:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:24:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:25:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:25:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:25:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:25:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:26:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:26:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:26:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:26:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:27:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:27:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:27:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:27:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:27:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:27:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:27:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:27:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:28:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:30:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:31:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:31:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:31:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:31:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:31:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:31:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:31:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:31:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:32:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:32:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:32:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:32:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:34:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:34:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:34:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:34:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:34:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:34:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:34:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:34:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:09 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:09 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:09 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:09 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:40 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:40 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:40 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:35:40 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 197
+[23-May-2024 16:36:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 195
+[23-May-2024 16:36:06 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php:195
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 195
+[23-May-2024 16:36:32 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php:195
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 195
+[23-May-2024 16:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 195
+[23-May-2024 16:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 195
+[23-May-2024 16:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 195
+[23-May-2024 16:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 195
+[23-May-2024 16:37:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:37:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:37:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:37:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:37:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:37:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:37:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:37:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:37:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:37:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:37:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:37:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:39:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:39:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:39:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:39:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:40:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:31 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:31 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:31 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:31 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:41:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$Headers in C:\xampp\htdocs\roofnassets\app\emails\templates\update\index.php on line 198
+[23-May-2024 16:50:58 Asia/Calcutta] PHP Warning:  Undefined array key "config_email_template_header_name" in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 143
+[23-May-2024 16:50:58 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 143

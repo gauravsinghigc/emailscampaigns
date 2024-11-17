@@ -1,0 +1,69 @@
+[02-Jun-2024 10:09:38 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function AttandanceMonthdays() in C:\xampp\htdocs\emails\acm\SysFileAutoLoader.php:53
+Stack trace:
+#0 C:\xampp\htdocs\emails\index.php(3): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\emails\acm\SysFileAutoLoader.php on line 53
+[02-Jun-2024 10:12:40 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function AttandanceMonthdays() in C:\xampp\htdocs\emails\acm\SysFileAutoLoader.php:53
+Stack trace:
+#0 C:\xampp\htdocs\emails\index.php(3): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\emails\acm\SysFileAutoLoader.php on line 53
+[02-Jun-2024 10:14:15 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in C:\xampp\htdocs\emails\include\app\Header.php:23
+Stack trace:
+#0 C:\xampp\htdocs\emails\app\index.php(34): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\emails\include\app\Header.php on line 23
+[02-Jun-2024 10:18:14 Asia/Calcutta] PHP Warning:  include(../../app/compose/sections/Header-request.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\emails\app\compose\index.php on line 5
+[02-Jun-2024 10:18:14 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../app/compose/sections/Header-request.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\emails\app\compose\index.php on line 5
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 151
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 152
+[02-Jun-2024 10:18:15 Asia/Calcutta] PHP Warning:  Undefined variable $emailTemplateContent in C:\xampp\htdocs\emails\app\compose\index.php on line 174
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  include(../../app/sections/Header-request.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\emails\app\compose\index.php on line 5
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../app/sections/Header-request.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\emails\app\compose\index.php on line 5
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 71
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 92
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_SENDER_EMAIL_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 151
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $SELECTED_EMAIL_TEMPLATE_ID in C:\xampp\htdocs\emails\app\compose\index.php on line 152
+[02-Jun-2024 10:19:22 Asia/Calcutta] PHP Warning:  Undefined variable $emailTemplateContent in C:\xampp\htdocs\emails\app\compose\index.php on line 174
+[02-Jun-2024 10:19:53 Asia/Calcutta] PHP Warning:  Undefined variable $emailTemplateContent in C:\xampp\htdocs\emails\app\compose\index.php on line 174
+[02-Jun-2024 10:22:07 Asia/Calcutta] PHP Warning:  include(../../../app/emails/sections/require-variable-options.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\emails\app\templates\new\index.php on line 109
+[02-Jun-2024 10:22:07 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../app/emails/sections/require-variable-options.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\emails\app\templates\new\index.php on line 109
+[02-Jun-2024 11:12:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in C:\xampp\htdocs\emails\include\app\Header.php:23
+Stack trace:
+#0 C:\xampp\htdocs\emails\app\index.php(34): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\emails\include\app\Header.php on line 23

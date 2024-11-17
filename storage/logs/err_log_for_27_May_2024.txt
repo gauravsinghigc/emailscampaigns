@@ -1,0 +1,179 @@
+[27-May-2024 12:50:07 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2051
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 27 M...', '&lt;p&gt;Hey &l...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(118): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(163): SENDMAILSTEMPLATE('Welcome $FULLNA...', '', 'gauravsinghigc@...', '&lt;p&gt;Hey &l...', '8')
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2051
+[27-May-2024 12:50:28 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2051
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 27 M...', '&lt;p&gt;Hey &l...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(118): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(163): SENDMAILSTEMPLATE('Welcome $FULLNA...', '', 'gauravsinghigc@...', '&lt;p&gt;Hey &l...', '8')
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2051
+[27-May-2024 12:51:04 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2051
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 27 M...', '&lt;p&gt;Hey &l...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(118): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(162): SENDMAILSTEMPLATE('Welcome $FULLNA...', '', 'gauravsinghigc@...', '&lt;p&gt;Hey &l...', '8')
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2051
+[27-May-2024 12:51:36 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2051
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 27 M...', '<p>Hey <strong>...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(118): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(162): SENDMAILSTEMPLATE('Welcome $FULLNA...', '', 'gauravsinghigc@...', '&lt;p&gt;Hey &l...', '8')
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2051
+[27-May-2024 12:53:03 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2051
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 27 M...', '<p>Hey <strong>...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(119): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(162): SENDMAILSTEMPLATE('Welcome $FULLNA...', '', 'gauravsinghigc@...', '&lt;p&gt;Hey &l...', '8')
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2051
+[27-May-2024 12:54:23 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2051
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 27 M...', '<body><p>Hey <s...')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(119): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(162): SENDMAILSTEMPLATE('Welcome $FULLNA...', '', 'gauravsinghigc@...', '&lt;p&gt;Hey &l...', '8')
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2051
+[27-May-2024 12:55:11 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2051
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 27 M...', 'Hello \r\n')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(119): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(162): SENDMAILSTEMPLATE('Welcome $FULLNA...', '', 'gauravsinghigc@...', '&lt;p&gt;Hey &l...', '8')
+#4 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2051
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 14:50:04 Asia/Calcutta] PHP Warning:  Undefined variable $EMAILID in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 164
+[27-May-2024 15:11:10 Asia/Calcutta] PHP Warning:  Undefined variable $TOTAL_EMAILS in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\index.php on line 190
+[27-May-2024 15:11:10 Asia/Calcutta] PHP Warning:  Undefined variable $EMAIL_SQL in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\index.php on line 228
+[27-May-2024 15:11:10 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), '')
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Select.php(26): SELECT(NULL)
+#2 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\index.php(228): FETCH(NULL, 'config_mail_sen...')
+#3 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-May-2024 15:18:58 Asia/Calcutta] PHP Warning:  Undefined variable $config_email_template_id in C:\xampp\htdocs\roofnassets\handler\ModuleController\EmailController.php on line 217
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:45:17 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:46:43 Asia/Calcutta] PHP Warning:  Array to string conversion in C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php on line 221
+[27-May-2024 15:49:52 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:1867
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1867): preg_match('#^[a-z][a-z\\d+....', Array)
+#1 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1879): PHPMailer\PHPMailer\PHPMailer::isPermittedPath(Array)
+#2 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(3216): PHPMailer\PHPMailer\PHPMailer::fileIsAccessible(Array)
+#3 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(111): PHPMailer\PHPMailer\PHPMailer->addAttachment(Array, '0')
+#4 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(228): SENDMAILSTEMPLATE('Bhai Gaurav Sin...', 'gauravsinghigc@...', '&lt;p&gt;Hello ...', '1', Array)
+#5 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 1867
+[27-May-2024 15:50:51 Asia/Calcutta] PHP Warning:  Undefined array key "Name" in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php on line 111
+[27-May-2024 15:50:51 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: C:\xampp\htdocs\roofnassets\app\emails\compose\sending/../../../../storage/email_attachmentsBULK_EMAIL_MODULE_KI_TESTING_KR_RAHA_HU_0_27_05_2024_03_05_31_pm_.png in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:3217
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(111): PHPMailer\PHPMailer\PHPMailer->addAttachment('C:\\xampp\\htdocs...', NULL)
+#1 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(228): SENDMAILSTEMPLATE('Bhai Gaurav Sin...', 'gauravsinghigc@...', '&lt;p&gt;Hello ...', '1', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 3217
+[27-May-2024 15:51:27 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: C:\xampp\htdocs\roofnassets\app\emails\compose\sending/../../../../storage/email_attachmentsBULK_EMAIL_MODULE_KI_TESTING_KR_RAHA_HU_0_27_05_2024_03_05_31_pm_.png in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:3217
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(111): PHPMailer\PHPMailer\PHPMailer->addAttachment('C:\\xampp\\htdocs...', 'BULK_EMAIL_MODU...')
+#1 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(228): SENDMAILSTEMPLATE('Bhai Gaurav Sin...', 'gauravsinghigc@...', '&lt;p&gt;Hello ...', '1', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 3217
+[27-May-2024 15:52:04 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: http://localhost/roofnassets/storage/email_attachments/BULK_EMAIL_MODULE_KI_TESTING_KR_RAHA_HU_0_27_05_2024_03_05_31_pm_.png in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:3217
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(111): PHPMailer\PHPMailer\PHPMailer->addAttachment('http://localhos...', 'BULK_EMAIL_MODU...')
+#1 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(228): SENDMAILSTEMPLATE('Bhai Gaurav Sin...', 'gauravsinghigc@...', '&lt;p&gt;Hello ...', '1', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 3217
+[27-May-2024 15:52:07 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: http://localhost/roofnassets/storage/email_attachments/BULK_EMAIL_MODULE_KI_TESTING_KR_RAHA_HU_0_27_05_2024_03_05_31_pm_.png in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:3217
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(111): PHPMailer\PHPMailer\PHPMailer->addAttachment('http://localhos...', 'BULK_EMAIL_MODU...')
+#1 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(228): SENDMAILSTEMPLATE('Bhai Gaurav Sin...', 'gauravsinghigc@...', '&lt;p&gt;Hello ...', '1', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 3217
+[27-May-2024 15:52:12 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: http://localhost/roofnassets/storage/email_attachments/BULK_EMAIL_MODULE_KI_TESTING_KR_RAHA_HU_0_27_05_2024_03_05_31_pm_.png in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:3217
+Stack trace:
+#0 C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\Mail.php(111): PHPMailer\PHPMailer\PHPMailer->addAttachment('http://localhos...', 'BULK_EMAIL_MODU...')
+#1 C:\xampp\htdocs\roofnassets\app\emails\compose\sending\sender.php(228): SENDMAILSTEMPLATE('Bhai Gaurav Sin...', 'gauravsinghigc@...', '&lt;p&gt;Hello ...', '1', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\roofnassets\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 3217
